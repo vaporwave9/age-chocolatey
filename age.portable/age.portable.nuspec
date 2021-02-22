@@ -3,11 +3,11 @@
   <metadata>
     <id>age.portable</id>
     <version>1.0.0-beta7</version>
-    <title>age.beta (Portable)</title>
+    <title>age (Portable)</title>
     <authors>FiloSottile,vaporwave9</authors>
     <owners>vaporwave9</owners>
     <licenseUrl>https://github.com/FiloSottile/age/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/vaporwave9/age-chocolatey</projectUrl>
+    <projectUrl>https://age-encryption.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>age is a simple, modern and secure file encryption tool, format, and library.
 
@@ -19,6 +19,7 @@ It features small explicit keys, no config options, and UNIX-style composability
     <tags>encryption</tags>
     <projectSourceUrl>https://github.com/FiloSottile/age</projectSourceUrl>
     <packageSourceUrl>https://github.com/vaporwave9/age-chocolatey</packageSourceUrl>
-    <bugTrackerUrl>https://github.com/vaporwave9/age-chocolatey/issues</bugTrackerUrl>
+    <docsUrl>https://age-encryption.org/v1</docsUrl>
+    <bugTrackerUrl>https://github.com/FiloSottile/age/issues</bugTrackerUrl>
   </metadata>
 </package>
