@@ -4,7 +4,7 @@
     <id>age.portable</id>
     <version>1.0.0-beta7</version>
     <title>age (Portable)</title>
-    <authors>FiloSottile,vaporwave9</authors>
+    <authors>FiloSottile</authors>
     <owners>vaporwave9</owners>
     <licenseUrl>https://github.com/FiloSottile/age/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://age-encryption.org/</projectUrl>
