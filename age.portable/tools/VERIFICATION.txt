@@ -6,14 +6,14 @@ The installer have been downloaded from the GitHub mirror and can be verified li
 
 1. Download the following installer(s):
 
-x64: https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-windows-amd64.zip
+x64: https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-windows-amd64.zip
 
 2. You can use one of the following methods to obtain the checksum(s):
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
 
 checksumtype: sha256
-checksum: 97F2F8FC6E7450EC60BBFB5207DFC18806AF258F68915CA712BBA0FFBB9E75A1
+checksum: A41A4C9D5F1B3F04C1C23F5E15B9129EA81250B88E0B7250081AB93F650AAF63
 
 The included 'LICENSE.txt' file have been obtained from:
 https://github.com/FiloSottile/age/blob/master/LICENSE
