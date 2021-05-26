@@ -25,9 +25,12 @@ choco install age.portable
 
 * Note: For an up-to-date version visit: https://github.com/FiloSottile/age/blob/master/README.md
 
-[![pkg.go.dev](https://pkg.go.dev/badge/filippo.io/age)](https://pkg.go.dev/filippo.io/age)
+# age
 
-age is a simple, modern and secure file encryption tool, format, and library.
+[![Go Reference](https://pkg.go.dev/badge/filippo.io/age.svg)](https://pkg.go.dev/filippo.io/age)
+[![man page](https://img.shields.io/badge/man-page-lightgrey)](https://htmlpreview.github.io/?https://github.com/FiloSottile/age/blob/master/doc/age.1.html)
+
+age is a simple, modern and secure file encryption tool, format, and Go library.
 
 It features small explicit keys, no config options, and UNIX-style composability.
 
@@ -38,11 +41,15 @@ $ tar cvz ~/data | age -r age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9
 $ age --decrypt -i key.txt data.tar.gz.age > data.tar.gz
 ```
 
-The format specification is at [age-encryption.org/v1](https://age-encryption.org/v1). To discuss the spec or other age related topics, please email [the mailing list](https://groups.google.com/d/forum/age-dev) at age-dev@googlegroups.com. age was designed by [@Benjojo12](https://twitter.com/Benjojo12) and [@FiloSottile](https://twitter.com/FiloSottile).
+The format specification is at [age-encryption.org/v1](https://age-encryption.org/v1). age was designed by [@Benjojo12](https://twitter.com/Benjojo12) and [@FiloSottile](https://twitter.com/FiloSottile).
 
 An alternative interoperable Rust implementation is available at [github.com/str4d/rage](https://github.com/str4d/rage).
 
+The author pronounces it `[aɡe̞]`, like the Italian [“aghe”](https://translate.google.com/?sl=it&text=aghe).
+
 ## Usage
+
+For the full documentation, read [the age(1) man page](https://htmlpreview.github.io/?https://github.com/FiloSottile/age/blob/master/doc/age.1.html).
 
 ```
 Usage:
